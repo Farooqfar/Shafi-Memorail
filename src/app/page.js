@@ -22,7 +22,7 @@ export default function Home() {
               <p className="text-[#839991] font-bold">Our is to deliver the highest quality healthcare services. We believe that everyone deserves access to excellent medical care without compromising on quality.</p>
             </div>
           </div>
-          <div className="w-[50%] h-full p-4 flex gap-2 items-start justify-center max-lg:w-[100%] max-lg:h-[50%]">
+          <div className="w-[50%] min-h-[400px] p-4 flex gap-2 items-start justify-center max-lg:w-[100%] max-lg:h-[50%]">
             <MaskedDiv maskType="type-1" size={0.45} className="my-4 min-h-[400px]">
               <video
                 className="cursor-pointer transition-all duration-300 hover:scale-105"
