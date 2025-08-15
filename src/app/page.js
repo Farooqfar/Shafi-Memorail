@@ -3,29 +3,35 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Aboutus from './components/Aboutus';
 
-
 export default function Home() {
   return (
-    <section className="w-[100%] h-[100%] overflow-hidden bg-[#FFF7F4]">
+    <section className="w-full min-h-screen overflow-hidden bg-[#FFF7F4]">
       <main className="bg-[#07332F] w-full min-h-screen selection:bg-green-400 selection:text-black">
-        <header className="w-full h-20 pt-5 pb-5 border-b-1 border-gray-400 flex items-center  ">
-
+        <header className="w-full h-20 pt-5 pb-5 border-b border-gray-400 flex items-center">
           <Navbar />
         </header>
-        <div className="w-full h-full flex justify-center items-center max-lg:flex-wrap max-lg:gap-3 ">
-          <div className="w-[50%] mt-20 h-full overflow-hidden flex items-center justify-center max-lg:w-[100%] max-lg:h-[50%]">
-            <div className="w-100 flex flex-col gap-5">
+
+        <div className="w-full flex justify-center items-center max-lg:flex-wrap max-lg:gap-3">
+          {/* Left Text Section */}
+          <div className="w-[50%] mt-20 flex items-center justify-center max-lg:w-full">
+            <div className="flex flex-col gap-5 px-4">
               <h1 className="text-white text-2xl uppercase">we take care of your health</h1>
-              <h1 className="text-[#F7A582] text-5xl font-bold">We Are Providing
-                Best & Affordable
-                Health Care.</h1>
-              <p className="text-[#839991] font-bold">Our is to deliver the highest quality healthcare services. We believe that everyone deserves access to excellent medical care without compromising on quality.</p>
+              <h1 className="text-[#F7A582] text-5xl font-bold">
+                We Are Providing Best & Affordable Health Care.
+              </h1>
+              <p className="text-[#839991] font-bold">
+                Our is to deliver the highest quality healthcare services. We believe that everyone deserves
+                access to excellent medical care without compromising on quality.
+              </p>
             </div>
           </div>
-          <div className="w-[50%] h-full p-4 flex gap-2 items-start justify-center max-lg:w-[100%] max-lg:h-[50%]">
-            <MaskedDiv maskType="type-1" size={0.45} className="my-4 h-full">
+
+          {/* Right Video Section */}
+          <div className="w-[50%] min-h-[400px] p-4 flex gap-2 items-start justify-center max-lg:w-full max-lg:min-h-[300px]">
+            {/* First MaskedDiv */}
+            <MaskedDiv maskType="type-1" size={0.45} className="my-4 w-full min-h-[400px]">
               <video
-                className="cursor-pointer transition-all duration-300 hover:scale-105"
+                className="w-full h-full object-cover cursor-pointer transition-all duration-300 hover:scale-105"
                 autoPlay
                 loop
                 muted
@@ -36,9 +42,11 @@ export default function Home() {
                 />
               </video>
             </MaskedDiv>
-            <MaskedDiv maskType="type-1" size={0.45} className="rotate-180 top-32 ">
+
+            {/* Second MaskedDiv */}
+            <MaskedDiv maskType="type-1" size={0.45} className="rotate-180 w-full min-h-[400px]">
               <video
-                className="cursor-pointer transition-all duration-300 hover:scale-105"
+                className="w-full h-full object-cover cursor-pointer transition-all duration-300 hover:scale-105"
                 autoPlay
                 loop
                 muted
@@ -52,10 +60,11 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className="w-full h-75  mt-10 overflow-hidden">
+
+      <div className="w-full mt-10 overflow-hidden">
         <Card />
       </div>
-      <div className="w-full h-full">
+      <div className="w-full">
         <Aboutus />
       </div>
     </section>
