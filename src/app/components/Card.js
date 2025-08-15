@@ -6,7 +6,7 @@ export default function Card() {
     return (
         <section className="flex items-center justify-center gap-0.3">
             <div className="relative bg-[#F7A582] w-100 h-60 flex justify-start items-center flex-col">
-                <h1 className="text-white font-bold text-3xl p-10">Don't Hesitate To Contact us</h1>
+                <h1 className="text-white font-bold text-3xl p-10">Dont Hesitate To Contact us</h1>
                 <button className="absolute bottom-0 text-white bg-black w-[100%] h-15 text-xl flex justify-center items-center gap-4">Make Appointment <FaCalendarCheck className="text-white" /></button>
             </div>
             <div className="bg-[#07332F] w-100 h-60 flex justify-center gap-4 flex-col p-10 border-r-1 border-white">
