@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-[50%] h-full p-4 flex gap-2 items-start justify-center max-lg:w-[100%] max-lg:h-[50%]">
-            <MaskedDiv maskType="type-1" size={0.45} className="my-4">
+            <MaskedDiv maskType="type-1" size={0.45} className="my-4 h-full">
               <video
                 className="cursor-pointer transition-all duration-300 hover:scale-105"
                 autoPlay
