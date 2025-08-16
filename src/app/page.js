@@ -2,6 +2,7 @@ import MaskedDiv from "@/components/ui/masked-div";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Aboutus from './components/Aboutus';
+import Services from "./components/Services";
 
 
 export default function Home() {
@@ -13,16 +14,18 @@ export default function Home() {
           <Navbar />
         </header>
         <div className="w-full h-full flex justify-center items-center max-lg:flex-wrap max-lg:gap-3 ">
-          <div className="w-[50%] mt-20 h-full overflow-hidden flex items-center justify-center max-lg:w-[100%] max-lg:h-[50%]">
-            <div className="w-100 flex flex-col gap-5">
+          <div className="w-[50%] mt-20 h-full overflow-hidden flex items-center justify-center max-lg:w-[100%] max-lg:h-[50%] max-lg:mt-1">
+            <div className="w-full p-10 flex flex-col gap-5">
               <h1 className="text-white text-2xl uppercase">we take care of your health</h1>
-              <h1 className="text-[#F7A582] text-5xl font-bold">We Are Providing
+              <h1 className="text-[#F7A582] text-5xl font-bold">Dr.Muhammad Arslan Iqbal</h1>
+              <h1 className="text-white text-3xl font-bold">We Are Providing
                 Best & Affordable
                 Health Care.</h1>
-              <p className="text-[#839991] font-bold">Our is to deliver the highest quality healthcare services. We believe that everyone deserves access to excellent medical care without compromising on quality.</p>
+              <p className="text-[#839991] font-bold">We are committed to providing the best and most affordable healthcare, ensuring every patient receives compassionate, personalized treatment. Our mission is to deliver the highest quality medical services, combining advanced medical expertise with a patient-first approach. We believe that everyone deserves access to exceptional healthcare without compromising on quality, comfort, or dignity.</p>
+              <button className="w-50 bg-[#86C30E] p-2 rounded text-white cursor-pointer text-xl">Contact Us</button>
             </div>
           </div>
-          <div className="w-[50%] min-h-[400px] p-4 flex gap-2 items-start justify-center max-lg:w-[100%] max-lg:min-h-[250px]">
+          <div className="w-[50%] min-h-[400px] p-4 flex gap-2 items-start justify-center max-lg:w-100 max-lg:min-h-[250px]">
             <MaskedDiv maskType="type-1" size={0.45} className="my-4 min-h-[400px] flex items-center">
               <video
                 className="cursor-pointer transition-all duration-300 hover:scale-105 w-full h-full object-cover"
@@ -37,7 +40,7 @@ export default function Home() {
               </video>
             </MaskedDiv>
 
-            <MaskedDiv maskType="type-1" size={0.45} className="rotate-180 top-32 min-h-[400px] flex items-center">
+            <MaskedDiv maskType="type-1" size={0.45} className="rotate-180 top-32 min-h-[400px] flex items-center max-lg:hidden">
               <video
                 className="cursor-pointer transition-all duration-300 hover:scale-105 w-full h-full object-cover"
                 autoPlay
@@ -54,11 +57,14 @@ export default function Home() {
 
         </div>
       </main>
-      <div className="w-full h-75  mt-10 overflow-hidden">
+      <div className="w-full h-75  mt-10 overflow-hidden max-lg:h-full">
         <Card />
       </div>
       <div className="w-full h-full">
         <Aboutus />
+      </div>
+      <div className="w-full h-full pt-20 overflow-hidden">
+        <Services />
       </div>
     </section>
   );

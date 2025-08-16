@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Aboutus() {
     return (
-        <section className="w-full h-full flex items-center justify-center">
+        <section className="w-full h-full flex items-center justify-center p-10 max-lg:flex-col">
             <div className="w-[50%] h-full flex justify-center items-center gap-5">
 
                 <Image
@@ -23,10 +23,10 @@ export default function Aboutus() {
 
 
             </div>
-            <div className="w-[50%] h-full">
-                <h1 className="text-5xl font-bold text-[#F7A582]">About Us</h1>
-                <h1 className="text-2xl text-black">Personal care & healthy living</h1>
-                <p className="text-xl">At Al Shafi Memorial, we are dedicated to providing compassionate, high-quality healthcare for every patient. Our mission is to combine modern medical expertise with a personal touch, ensuring accessible and affordable treatment for all. With a team of skilled professionals and state-of-the-art facilities, we strive to improve lives and promote wellness in our community.</p>
+            <div className="w-[50%] h-full flex flex-col gap-5 max-lg:w-full max-lg:mt-20">
+                <h1 className="text-5xl text-[#F7A582]">About Us</h1>
+                <h1 className="text-5xl text-black">Personal care & <br /> healthy living</h1>
+                <p className="text-xl text-[#7F7B7A]">At Al Shafi Memorial, we are dedicated to providing compassionate, high-quality healthcare for every patient. Our mission is to combine modern medical expertise with a personal touch, ensuring accessible and affordable treatment for all. With a team of skilled professionals and state-of-the-art facilities, we strive to improve lives and promote wellness in our community.</p>
             </div>
         </section>
     )
