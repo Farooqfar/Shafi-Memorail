@@ -8,7 +8,7 @@ import Services from "./components/Services";
 export default function Home() {
   return (
     <section className="w-[100%] h-[100%] overflow-hidden bg-[#FFFFFF]">
-      <main className="bg-gray-50 w-full min-h-screen selection:bg-green-400 selection:text-black">
+      <main className="bg-gray-50 w-full min-h-screen selection:bg-green-400 selection:text-black max-lg:min-h-auto">
         <header className="w-full h-20 pt-5 pb-5 border-b-1 border-gray-400 flex items-center  ">
 
           <Navbar />
@@ -26,7 +26,7 @@ export default function Home() {
              hover:bg-[#1FA8A1] transition-colors cursor-pointer">Contact Us</button>
             </div>
           </div>
-          </div>  
+        </div>
       </main>
       <div className="w-full h-75  mt-10 overflow-hidden max-lg:h-full">
         <Card />

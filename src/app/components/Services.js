@@ -10,34 +10,34 @@ export default function Services() {
                 <h2 className="text-4xl text-black">We are Providing
                     Best Services.</h2>
             </div>
-            <div className="flex justify-center gap-10 flex-wrap">
-                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50   cursor-pointer">
-                    <FaEye className="text-5xl text-[#24CBC3]" />
+            <div className="flex w-full justify-center gap-10 flex-wrap">
+                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50   cursor-pointer max-md:p-5">
+                    <FaEye className="text-5xl text-[#24CBC3] max-md:text-4xl" />
                     <h1 className="text-3xl">Eye Care</h1>
                     <p className="text-[#7F7B7A] text-xl">We understand the importance of clear vision and its impact on your.</p>
                 </div>
-                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 cursor-pointer">
-                    <FaHandHoldingMedical className="text-5xl text-[#24CBC3]" />
+                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 cursor-pointer max-md:p-5">
+                    <FaHandHoldingMedical className="text-5xl text-[#24CBC3] max-lg:text-4xl" />
 
                     <h1 className="text-3xl">Medical Checkup</h1>
                     <p className="text-xl text-[#7F7B7A] ">During your medical checkup, our skilled healthcare professionals.</p>
                 </div>
-                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 cursor-pointer">
-                    <TbDental className="text-5xl text-[#24CBC3]" />
+                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 cursor-pointer max-md:p-5">
+                    <TbDental className="text-5xl text-[#24CBC3] max-lg:text-4xl" />
                     <h1 className="text-3xl">Dental Care</h1>
                     <p className="text-xl text-[#7F7B7A] ">
                         We are passionate about providing top-notch dental care to help you.</p>
                 </div>
-                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 cursor-pointer">
-                    <FaHeartbeat className="text-5xl text-[#24CBC3]" />
+                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 cursor-pointer max-md:p-5">
+                    <FaHeartbeat className="text-5xl text-[#24CBC3] max-lg:text-4xl" />
 
                     <h1 className="text-3xl">Laboratory Service
                     </h1>
                     <p className="text-xl text-[#7F7B7A] ">
                         We understand the critical role that accurate diagnostics play in guiding.</p>
                 </div>
-                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 hover:cursor-pointer">
-                    <FaHospital className="text-5xl text-[#24CBC3]" />
+                <div className="w-100 h-72 border-2  flex flex-col gap-5 p-10 transition-all duration-200 hover:bg-teal-50 hover:cursor-pointer max-md:p-5">
+                    <FaHospital className="text-5xl text-[#24CBC3]  max-lg:text-4xl" />
 
                     <h1 className="text-3xl">Patient-Centered
                     </h1>
