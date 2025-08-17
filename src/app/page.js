@@ -17,7 +17,7 @@ export default function Home() {
           <div className="w-full mt-20 h-full overflow-hidden flex items-center justify-start max-lg:mt-0">
             <div className="w-full p-10 flex flex-col  gap-5  max-lg:items-start">
               <h1 className="text-black text-2xl uppercase max-md:text-white ">we take care of your health</h1>
-              <h1 className="text-[#1DD2C8] text-6xl font-bold max-lg:text-5xl">Dr.Muhammad Arslan Iqbal</h1>
+              <h1 className="text-[#1DD2C8] text-6xl font-bold [text-shadow:_2px_2px_2px_rgba(0,0,0,0.2)] max-lg:text-5xl">Doctor<br/>Muhammad Arslan Iqbal</h1>
               <h1 className="text-black text-3xl max-lg:2xl max-md:text-white">We Are Providing
                 Best & Affordable
                 Health Care.</h1>
@@ -31,10 +31,10 @@ export default function Home() {
       <div className="w-full h-75  mt-10 overflow-hidden max-lg:h-full">
         <Card />
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full mt-5">
         <Aboutus />
       </div>
-      <div className="w-full h-full pt-20 overflow-hidden">
+      <div className="w-full h-full pt-5 overflow-hidden">
         <Services />
       </div>
     </section>
