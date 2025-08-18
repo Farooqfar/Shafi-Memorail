@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Aboutus() {
     return (
-        <section className="w-screen h-screen ">
+        <section className="w-screen h-auto ">
             <div className="w-full text-center">
                 <h1 className="text-6xl text-[#24CBC3]">About Us</h1>
                 <h1 className="text-2xl text-[#7F7B7A]">Al Shafi Memorial</h1>
