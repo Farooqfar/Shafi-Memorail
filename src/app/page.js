@@ -17,7 +17,7 @@ export default function Home() {
           <div className="w-full mt-20 h-full overflow-hidden flex items-center justify-start max-lg:mt-0">
             <div className="w-full p-10 flex flex-col  gap-5  max-lg:items-start">
               <h1 className="text-black text-2xl uppercase max-md:text-white ">we take care of your health</h1>
-              <h1 className="text-[#1DD2C8] text-6xl font-bold [text-shadow:_2px_2px_2px_rgba(0,0,0,0.2)] max-lg:text-5xl">Doctor<br/>Muhammad Arslan Iqbal</h1>
+              <h1 className="text-[#1DD2C8] [-webkit-text-stroke:1px_white] text-6xl font-bold [text-shadow:_2px_2px_2px_rgba(0,0,0,0.3)] max-lg:text-5xl">Doctor<br/>Muhammad Arslan Iqbal</h1>
               <h1 className="text-black text-3xl max-lg:2xl max-md:text-white">We Are Providing
                 Best & Affordable
                 Health Care.</h1>
