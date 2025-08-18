@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </main>
 
-      <div className="w-full h-75 flex items-center justify-center  mt-10 overflow-hidden max-lg:h-full">
+      <div className="w-full h-75 flex items-center justify-center p-10  mt-10 overflow-hidden max-lg:h-full">
         <Card />
       </div>
       <div className="w-full h-auto mt-5 bg-[#023161] pt-8">
