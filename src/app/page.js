@@ -25,7 +25,7 @@ export default function Home() {
               <h1 className="text-[#1DD2C8] text-6xl font-bold max-lg:text-5xl">
                 Doctor<br />Muhammad Arslan Iqbal
               </h1>
-              <h1 className="text-yellow-400 text-3xl max-lg:2xl ">
+              <h1 className="text-yellow-600 text-3xl max-lg:2xl ">
                 We Are Providing Best & Affordable Health Care.
               </h1>
               <p className="text-white text-lg w-[60%] max-lg:w-full max-lg:text-start">
@@ -46,7 +46,7 @@ export default function Home() {
       <div className="w-full h-full mt-5 bg-[#023161] pt-8">
         <Aboutus />
       </div>
-      <div className="w-full h-full pt-5 overflow-hidden max-lg:mt-10">
+      <div className="w-full h-full pt-5 overflow-hidden max-md:mt-10">
         <Services />
       </div>
     </section>
