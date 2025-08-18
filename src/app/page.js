@@ -43,7 +43,7 @@ export default function Home() {
       <div className="w-full h-75  mt-10 overflow-hidden max-lg:h-full">
         <Card />
       </div>
-      <div className="w-full h-full mt-5 bg-[#023161] pt-8">
+      <div className="w-full h-auto mt-5 bg-[#023161] pt-8">
         <Aboutus />
       </div>
       <div className="w-full h-full pt-5 overflow-hidden max-md:mt-10">
