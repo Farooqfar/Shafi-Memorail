@@ -1,4 +1,7 @@
-import MaskedDiv from "@/components/ui/masked-div";
+"use client";
+
+import TextPressure from "@/components/TextPressure";
+
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Aboutus from './components/Aboutus';
@@ -23,9 +26,21 @@ export default function Home() {
               <h1 className="text-white text-2xl uppercase">
                 we take care of your health
               </h1>
-              <h1 className="text-[#1DD2C8] text-6xl font-bold max-lg:text-5xl">
-                Doctor<br />Muhammad Arslan Iqbal
-              </h1>
+              <div className="h-auto">
+                <TextPressure
+                  text="Dr.Muhammad Arslan Iqbal"
+                  flex={true}
+                  alpha={false}
+                  stroke={false}
+                  width={true}
+                  weight={true}
+                  italic={true}
+                  textColor="#24CBC3"
+                  strokeColor="#ff0000"
+                  minFontSize={36}
+                  
+                />
+              </div>
               <h1 className="text-yellow-600 text-3xl max-lg:2xl ">
                 We Are Providing Best & Affordable Health Care.
               </h1>
