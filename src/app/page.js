@@ -1,7 +1,7 @@
 "use client";
 
 import TextPressure from "@/components/TextPressure";
-
+import BlurText from "@/components/BlurText";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Aboutus from './components/Aboutus';
@@ -38,7 +38,14 @@ export default function Home() {
                   textColor="#24CBC3"
                   strokeColor="#ff0000"
                   minFontSize={36}
-                  
+                  className="max-lg:hidden"
+                />
+                <BlurText
+                  text="Dr.Muhammad Arslan Iqbal"
+                  delay={150}
+                  animateBy="words"
+                  direction="top"
+                  className="text-5xl font-bold text-[#24CBC3] min-lg:hidden max-lg:block"
                 />
               </div>
               <h1 className="text-yellow-600 text-3xl max-lg:2xl ">
@@ -56,7 +63,7 @@ export default function Home() {
         </div>
       </main>
 
-      <div className="w-full h-80 flex items-center justify-center p-10 mt-10 overflow-hidden max-lg:h-full">
+      <div className="w-full h-80 flex items-center justify-center  mt-10 overflow-hidden max-lg:h-full">
         <Card />
       </div>
       <div className="w-full h-auto mt-5 bg-[#023161] pt-8">

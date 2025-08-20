@@ -4,7 +4,7 @@ import { FaUserNurse } from "react-icons/fa6";
 
 export default function Card() {
     return (
-        <section className="flex items-center justify-center gap-0.3 p-0 max-lg:flex-wrap max-lg:p-10 max-lg:gap-1">
+        <section className="flex items-center justify-center p-10 max-lg:flex-wrap max-lg:p-10 max-lg:gap-1">
             <div className="relative bg-[#1DD2C8] w-100 h-60 flex justify-start items-center flex-col max-sm:p-4">
                 <h1 className="text-white  text-4xl p-10 max-sm:text-2xl">Dont Hesitate To Contact us</h1>
                 <button className="absolute bottom-0 text-white bg-black w-[100%] h-15 text-xl flex justify-center items-center gap-4">Make Appointment <FaCalendarCheck className="text-white" /></button>
