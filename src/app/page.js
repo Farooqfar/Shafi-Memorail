@@ -2,11 +2,11 @@
 
 import TextPressure from "@/components/TextPressure";
 import BlurText from "@/components/BlurText";
-import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Aboutus from './components/Aboutus';
 import Services from "./components/Services";
 import BookAppoinment from "./components/BookAppoinment";
+import Contact from "./components/Contact";
 
 
 export default function Home() {
@@ -15,11 +15,6 @@ export default function Home() {
       <main className="relative bg-[url(/drarslan.png)] bg-cover max-md:bg-[url(/drArslanRes.png)] max-md:bg-center bg-no-repeat w-full min-h-screen selection:bg-green-400 selection:text-black max-lg:min-h-auto">
         {/* Overlay only on background */}
         <div className="absolute inset-0 bg-black/50 z-0"></div>
-
-        <header className="w-full h-20 pt-5 pb-5 border-b border-gray-400 flex items-center relative z-10">
-          <Navbar />
-        </header>
-
         <div className="w-full h-full flex justify-start items-center max-lg:flex-wrap max-lg:gap-3 relative z-10">
           <div className="w-full mt-20 h-full overflow-hidden flex items-center justify-start max-lg:mt-0">
             <div className="w-full p-10 flex flex-col gap-5 max-lg:items-start">
@@ -74,6 +69,9 @@ export default function Home() {
       </div>
       <div className="w-full h-auto overflow-hidden p-10 mb-5 bg-[#023161] max-md:mt-5">
         <BookAppoinment />
+      </div>
+      <div className="w-full h-auto overflow-hidden p-10 mb-5 max-md:mt-5">
+        <Contact/>
       </div>
     </section>
   );

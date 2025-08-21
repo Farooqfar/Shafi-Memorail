@@ -16,10 +16,10 @@ export default function Navbar() {
                 </li>
             </ul>
             <ul className="flex gap-10 items-center max-lg:hidden ">
-                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="Home">Home</Link></li>
-                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="Aboutus">About Us</Link></li>
-                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="Services">Services</Link></li>
-                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="Contactus">Contact Us</Link></li>
+                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="/">Home</Link></li>
+                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="about">About Us</Link></li>
+                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="service">Services</Link></li>
+                <li className="text-xl text-white hover:text-black hover:bg-[#1DD2C8] p-2 rounded-xl tranisition-all duration-300"><Link href="contact">Contact Us</Link></li>
                 <li>
                     <button className="w-52  bg-[#1DD2C8] rounded-2xl p-2 text-black hover:bg-white tranisition-all duration-300 cursor-pointer ">
                         Book Appointment
